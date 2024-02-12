@@ -1,0 +1,34 @@
+{
+  "Bisection": [
+      {
+        "id": 1,
+        "reseq": "x^4-13",
+        "resxr": 2,
+        "resxl":1.5
+      }
+    ],
+    "False_position": [
+      {
+        "id": 1,
+        "reseq": "43*x-1",
+        "resxr": 0.03,
+        "resxl":0.02
+      }
+    ],
+    "Newtonraphson": [
+      {
+        "id": 1,
+        "reseq": "x^2-7",
+        "resx":2
+      }
+    ],
+    "Newton_diff": [
+      {
+        "id": 1,
+        "ressize":5,
+        "resfx": 42000,
+        "resx":[0,20000,40000,60000,80000],
+        "resy":[9.81,9.7487,9.6879,9.6879,9.5682]
+      }
+    ]
+}
